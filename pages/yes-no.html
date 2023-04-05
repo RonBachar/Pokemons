@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/yes-no.css" />
+    <title>Yes No</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Ask Anything</h2>
+      <p>Ask us anything you want and we'll do our best to help you out!</p>
+
+      <div class="input-container">
+        <label for="question"></label>
+        <input
+          type="text"
+          id="question"
+          name="question"
+          value="Your Question"
+        />
+      </div>
+      <div class="input-container">
+        <h2>Display Ajax Retreived Data:</h2>
+        <div id="question-box">
+            <div id="answer"></div><br>
+            <div id="joke"></div><br>
+            <img id='image' src="" alt=""><br>
+            <a href="/index.html">Home</a>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.js"
+      integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/yes-no.js"></script>
+  </body>
+</html>

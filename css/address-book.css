@@ -1,0 +1,24 @@
+#contacts-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#contacts-table th,
+#contacts-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+#contacts-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+#contacts-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#contacts-table tbody tr:hover {
+  background-color: #ddd;
+}
